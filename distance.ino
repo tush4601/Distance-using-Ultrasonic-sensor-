@@ -6,9 +6,16 @@
 // Tested on 17 April 2022
 // ---------------------------------------------------------------- //
 
-#define TrigPin 10 //attach pin 10 of ARduino to Trig pin of Sensor
-#define EchoPin 11 // attach pin 11 of ARduino to Echo pin of Sensor
+// Connections are as follows:
+//attach pin 10 of ARduino to Trig pin of Sensor
+// attach pin 11 of ARduino to Echo pin of Sensor
 // Give Vcc and Gnd to Sensor from Arduino or any other source 
+// Connect LED's +ve to pin 3 4 & 5 and -ve to GND
+// ----------------------------------------------------------------
+
+
+#define TrigPin 10 
+#define EchoPin 11 
 
 //variables
 long time_taken; // variable for the duration of sound wave travel
